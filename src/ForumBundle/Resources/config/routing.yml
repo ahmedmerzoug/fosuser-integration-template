@@ -1,0 +1,14 @@
+forum_post:
+        resource: "@ForumBundle/Resources/config/routing/post.yml"
+        prefix:   /post
+forum_comment:
+        resource: "@ForumBundle/Resources/config/routing/comment.yml"
+        prefix:   /comment
+forum_homepage:
+    path:     /
+    defaults: { _controller: ForumBundle:Default:index }
+
+ahmed:
+    path:     /ahmed
+    defaults: { _controller: ForumBundle:Default:ahmed }
+
